@@ -1,0 +1,36 @@
+body{
+	background-image: url(ese.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+*{
+	box-sizing: border-box;
+
+}
+form{
+	width: 300px;
+	padding: 16px;
+	border-radius: 10px;
+	margin: auto;
+	background-color: #dacb8a;
+	border: 2px solid #897632;
+}
+form label{
+	width: 70px;
+	font-weight: bold;
+	display: inline-block;
+	background-color: #f8de7e;
+	border: 2px solid #867416;
+	border-radius: 3px;
+}
+form input[type="text"], form input[type="email"]{
+	display: inline-block;
+	width:150px;
+	padding: 3px 10px;
+	border: 1px solid #464;
+	border-radius: 3px;
+	background-color:#6bb88a;
+	
+}
